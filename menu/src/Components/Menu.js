@@ -18,17 +18,18 @@ import Item4 from './Images/item-4.jpeg'
 import Item6 from './Images/item-6.jpeg'
 import Item8 from './Images/item-8.jpeg'
 
+
 function Menu () {
 
 return (
-  <div className="list">
+  <div className="list" style={{backgroundColor: "#ffffff"}}>
    <Box sx={{ flexGrow: 1, width: 450}}>
     <List>
       <Stack direction="column">
         <Stack direction="row">
       <ListItem>
         <CardActionArea>
-          <Card sx={{ display: 'flex' }}>
+          <Card elevation={0} sx={{ display: 'flex' }}>
           <CardMedia
                 component="img"
                 sx={{ width: 145, height: 105, border: 2, borderColor: '#ffa726', 
@@ -59,7 +60,7 @@ return (
       </ListItem>
       <ListItem>
         <CardActionArea>
-          <Card sx={{ display: 'flex' }}>
+          <Card  elevation={0} sx={{ display: 'flex' }}>
           <CardMedia
                 component="img"
                 sx={{ width: 145, height: 105, border: 2, borderColor: '#ffa726', 
@@ -92,7 +93,7 @@ return (
       <Stack direction="row">
       <ListItem>
         <CardActionArea>
-          <Card sx={{ display: 'flex' }}>
+          <Card elevation={0} sx={{ display: 'flex' }}>
           <CardMedia
                 component="img"
                 sx={{ width: 145, height: 105, border: 2, borderColor: '#ffa726', 
@@ -123,7 +124,7 @@ return (
       </ListItem>
       <ListItem>
         <CardActionArea>
-          <Card sx={{ display: 'flex' }}>
+          <Card  elevation={0} sx={{ display: 'flex' }}>
           <CardMedia
                 component="img"
                 sx={{ width: 145, height: 105, border: 2, borderColor: '#ffa726', 
@@ -156,7 +157,7 @@ return (
       <Stack direction="row">
       <ListItem>
         <CardActionArea>
-          <Card sx={{ display: 'flex' }}>
+          <Card  elevation={0} sx={{ display: 'flex' }}>
           <CardMedia
                 component="img"
                 sx={{ width: 145, height: 105, border: 2, borderColor: '#ffa726', 
@@ -187,7 +188,7 @@ return (
       </ListItem>
       <ListItem>
         <CardActionArea>
-          <Card sx={{ display: 'flex' }}>
+          <Card  elevation={0} sx={{ display: 'flex' }}>
           <CardMedia
                 component="img"
                 sx={{ width: 145, height: 105, border: 2, borderColor: '#ffa726', 
@@ -220,7 +221,7 @@ return (
       <Stack direction="row">
       <ListItem>
         <CardActionArea>
-          <Card sx={{ display: 'flex' }}>
+          <Card elevation={0} sx={{ display: 'flex' }}>
           <CardMedia
                 component="img"
                 sx={{ width: 145, height: 105, border: 2, borderColor: '#ffa726', 
@@ -251,7 +252,7 @@ return (
       </ListItem>
       <ListItem>
         <CardActionArea>
-          <Card sx={{ display: 'flex' }}>
+          <Card  elevation={0} sx={{ display: 'flex' }}>
           <CardMedia
                 component="img"
                 sx={{ width: 145, height: 105, border: 2, borderColor: '#ffa726', 
@@ -289,5 +290,6 @@ return (
 )
 
 }
+
 
 export default Menu;
