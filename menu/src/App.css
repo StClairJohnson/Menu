@@ -38,7 +38,7 @@
 }
 
 .list {
-  position: absolute;
+  position: relative;
 
-  left: 20px
+  left: 15%;
 }
